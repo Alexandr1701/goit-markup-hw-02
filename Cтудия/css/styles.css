@@ -43,7 +43,7 @@
   .site-nav-link:focus {
     color: var(--accent-text);
   }
-  .site-nav-link.current {
+  .current {
     color: var(--accent-text);
   }
   .auth-nav-link {
