@@ -64,7 +64,6 @@
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
-  
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -112,6 +111,7 @@
     font-style: normal;
     font-size: 14px;
     line-height: 1.7;
+    text-decoration: none;
   }
   .address-link {
     color: rgba(255, 255, 255, 0.6);
@@ -126,8 +126,15 @@
   .address-link:focus {
    color: var(--accent-text);
   }
+  .portfolio-title {
+    color: var(--title-text-color);
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+  }  
   button {
-    font-family: inherit Roboto, sans-serif;
+    font-family: inherit;
     cursor: pointer;
   }
   .button {
@@ -147,6 +154,10 @@
   .filter-button {
     background-color: #f5f4fa;
     color: var(--title-text-color);
+    font-size:16px;
+    font-weight:500;
+    font-style:normal;
+    font-family: inherit;
   }
   .filter-button:hover,
   .filter-button:focus {
